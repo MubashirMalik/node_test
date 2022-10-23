@@ -217,8 +217,9 @@ const solution = () => {
       }
     
     console.log({ maxRouteLength })
-    inspectVar('solution',calculations.deliveryRoutes)
+    inspectVar('solution', calculations.deliveryRoutes)
     log('end of solution');
+    return calculations.deliveryRoutes
 }
 
 module.exports = {
